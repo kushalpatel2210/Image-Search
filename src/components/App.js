@@ -15,8 +15,6 @@ class App extends React.Component {
             this.setState({images: response.data.results});
         }
 
-    //Testing 
-    
     render(){
         return(
             <div className='ui container' style={{marginTop:'10px'}}>
